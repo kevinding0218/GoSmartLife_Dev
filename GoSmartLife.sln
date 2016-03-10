@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GoSmartLife.Web", "http://localhost:53232", "{097AF7F0-AD38-48DC-894D-9E06C3709B57}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53232"
+		Debug.AspNetCompiler.PhysicalPath = "GoSmartLife.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53232\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53232"
+		Release.AspNetCompiler.PhysicalPath = "GoSmartLife.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53232\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "GoSmartLife.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSmartLife.Model", "GoSmartLife.Model\GoSmartLife.Model.csproj", "{144B6028-0C82-43A0-9E43-8330BC3234F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSmartLife.DataAccess", "GoSmartLife.DataAccess\GoSmartLife.DataAccess.csproj", "{2383B3CC-88E6-4DC3-9B30-95B7CD9BA718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSmartLife.WebAPI.Auth0", "GoSmartLife.WebAPI.Auth0\GoSmartLife.WebAPI.Auth0.csproj", "{27383C0D-4A48-4726-BB3B-B97E689E63A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoSmartLife.ConsoleApp", "GoSmartLife.ConsoleApp\GoSmartLife.ConsoleApp.csproj", "{F85E3A9B-8911-4B50-920A-515E5AF4D555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097AF7F0-AD38-48DC-894D-9E06C3709B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097AF7F0-AD38-48DC-894D-9E06C3709B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097AF7F0-AD38-48DC-894D-9E06C3709B57}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{097AF7F0-AD38-48DC-894D-9E06C3709B57}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{144B6028-0C82-43A0-9E43-8330BC3234F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144B6028-0C82-43A0-9E43-8330BC3234F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144B6028-0C82-43A0-9E43-8330BC3234F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144B6028-0C82-43A0-9E43-8330BC3234F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2383B3CC-88E6-4DC3-9B30-95B7CD9BA718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2383B3CC-88E6-4DC3-9B30-95B7CD9BA718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2383B3CC-88E6-4DC3-9B30-95B7CD9BA718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2383B3CC-88E6-4DC3-9B30-95B7CD9BA718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27383C0D-4A48-4726-BB3B-B97E689E63A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27383C0D-4A48-4726-BB3B-B97E689E63A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27383C0D-4A48-4726-BB3B-B97E689E63A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27383C0D-4A48-4726-BB3B-B97E689E63A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85E3A9B-8911-4B50-920A-515E5AF4D555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85E3A9B-8911-4B50-920A-515E5AF4D555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85E3A9B-8911-4B50-920A-515E5AF4D555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85E3A9B-8911-4B50-920A-515E5AF4D555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

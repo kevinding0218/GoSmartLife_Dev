@@ -1,0 +1,8 @@
+PM>
+Install-Package Microsoft.AspNet.WebApi
+Install-Package Microsoft.AspNet.WebApi.Owin
+Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin.Security.Jwt
+Install-Package Microsoft.Owin.Cors
+Update-Package System.IdentityModel.Tokens.Jwt
+
